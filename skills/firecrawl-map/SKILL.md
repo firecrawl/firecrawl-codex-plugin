@@ -44,4 +44,3 @@ firecrawl map "<url>" --limit 500 --json -o .firecrawl/urls.json
 
 - [firecrawl-scrape](../firecrawl-scrape/SKILL.md) — scrape the URLs you discover
 - [firecrawl-crawl](../firecrawl-crawl/SKILL.md) — bulk extract instead of map + scrape
-- [firecrawl-download](../firecrawl-download/SKILL.md) — download entire site (uses map internally)

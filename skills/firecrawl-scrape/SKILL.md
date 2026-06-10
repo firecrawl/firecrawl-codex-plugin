@@ -62,4 +62,3 @@ firecrawl scrape "https://example.com/pricing" --query "What is the enterprise p
 
 - [firecrawl-search](../firecrawl-search/SKILL.md) — find pages when you don't have a URL
 - [firecrawl-interact](../firecrawl-interact/SKILL.md) — when scrape can't get the content, use `interact` to click, fill forms, etc.
-- [firecrawl-download](../firecrawl-download/SKILL.md) — bulk download an entire site to local files
