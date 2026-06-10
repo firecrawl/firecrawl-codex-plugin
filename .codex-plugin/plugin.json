@@ -1,7 +1,7 @@
 {
   "name": "firecrawl",
   "version": "1.0.0",
-  "description": "Firecrawl web data skills for Codex: search, scrape, crawl, map, interact, parse, download, and agent workflows via the Firecrawl CLI.",
+  "description": "Firecrawl web data skills for Codex: search, scrape, crawl, map, interact, parse, and agent workflows via the Firecrawl CLI.",
   "author": {
     "name": "Firecrawl",
     "email": "hello@firecrawl.com",

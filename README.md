@@ -1,6 +1,6 @@
 # Firecrawl Codex plugin
 
-OpenAI [Codex plugin](https://developers.openai.com/codex/plugins/build) that bundles Firecrawl **CLI workflow skills** for search, scrape, crawl, map, interact, agent, parse, and download workflows.
+OpenAI [Codex plugin](https://developers.openai.com/codex/plugins/build) that bundles Firecrawl **CLI workflow skills** for search, scrape, crawl, map, interact, agent, and parse workflows.
 
 Canonical skill sources live in [`firecrawl/cli`](https://github.com/firecrawl/cli) (`cli/skills/`). This repo vendors copies for the Codex plugin distribution; refresh when CLI skills change materially.
 
