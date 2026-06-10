@@ -1,8 +1,0 @@
-{
-  "mcp_servers": {
-    "firecrawl": {
-      "command": "npx",
-      "args": ["-y", "firecrawl-mcp"]
-    }
-  }
-}

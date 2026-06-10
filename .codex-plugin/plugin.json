@@ -1,7 +1,7 @@
 {
   "name": "firecrawl",
   "version": "1.0.0",
-  "description": "Firecrawl web data for Codex: search, scrape, crawl, map, interact, and agent jobs via the Firecrawl CLI, plus optional MCP tools.",
+  "description": "Firecrawl web data skills for Codex: search, scrape, crawl, map, interact, parse, download, and agent workflows via the Firecrawl CLI.",
   "author": {
     "name": "Firecrawl",
     "email": "hello@firecrawl.com",
@@ -15,15 +15,13 @@
     "web-scraping",
     "search",
     "crawl",
-    "mcp",
     "research"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Firecrawl",
     "shortDescription": "Search, scrape, and crawl the web with Firecrawl",
-    "longDescription": "Bundle of Firecrawl CLI workflow skills for live web research and extraction in Codex. Optionally loads the Firecrawl MCP server for structured tools (search, scrape, crawl, map, extract). Requires a Firecrawl API key from firecrawl.dev.",
+    "longDescription": "Bundle of Firecrawl CLI workflow skills for live web research and extraction in Codex. This plugin is skills-only for Codex directory review; MCP and ChatGPT app integration can be added after the app review path is complete. Requires Firecrawl CLI authentication or a Firecrawl API key from firecrawl.dev.",
     "developerName": "Firecrawl",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
