@@ -58,6 +58,20 @@ firecrawl search "firecrawl web scraping" --limit 3 --json
 
 The `_local/` directory is gitignored; use it in your clone for any markdown or notes you do not want committed.
 
+## Evals and production telemetry
+
+The `evals/web-research/` directory contains a small human-review eval set for
+search, scrape, and site-map workflows. Use it before releasing plugin changes
+to check that Codex selects the right Firecrawl workflow, preserves source
+URLs, and keeps output concise.
+
+If you publish this plugin through Telvine, keep runtime telemetry metadata-only:
+`skill.invocation.start`, `skill.invocation.end`, and `skill.invocation.error`
+for skill behavior, plus `plugin.component.invoked` and
+`plugin.component.error` for non-skill components. Do not emit prompts, scraped
+page contents, connector payloads, tool arguments, credentials, browser state,
+or model outputs.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
